@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:id="@+id/changeResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Result Here"
+        android:textSize="30dp"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:background="#333"
+        />
+
+    <Button
+        android:id="@+id/clickButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="#e83a3b"
+        android:text="Click Here" />
+
+    <TextView
+        android:id="@+id/changeResult2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello world this is asadullah"
+        android:textSize="30dp"
+        android:background="#333"
+        android:textColor="#fff"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:padding="10dp"/>
+
+    <Button
+        android:id="@+id/clickButton2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Change from here"
+        android:textColor="#fff"
+        android:padding="10dp"
+        android:textSize="25dp"/>
+
+</LinearLayout>
