@@ -17,8 +17,8 @@
            android:layout_height="wrap_content"
            android:layout_marginTop="24dp"
            android:gravity="center"
-           android:text="0"
-           android:textSize="40dp"
+           android:text="@string/_0"
+           android:textSize="40sp"
            app:layout_constraintEnd_toEndOf="parent"
            app:layout_constraintHorizontal_bias="0.498"
            app:layout_constraintStart_toStartOf="parent"
@@ -31,7 +31,7 @@
            android:layout_marginTop="24dp"
            android:gravity="center"
            android:text="0"
-           android:textSize="40dp"
+           android:textSize="40sp"
            app:layout_constraintEnd_toEndOf="parent"
            app:layout_constraintHorizontal_bias="0.498"
            app:layout_constraintStart_toStartOf="parent"
@@ -51,19 +51,21 @@
            android:layout_height="54dp"
            android:layout_marginRight="10dp"
            android:text="Incress"
+           app:cornerRadius="50dp"
            tools:layout_editor_absoluteX="16dp"
-           tools:layout_editor_absoluteY="114dp" />
+           tools:layout_editor_absoluteY="114dp"
+           style="?android:attr/buttonBarButtonStyle" />
 
        <Button
            android:id="@+id/decressCount"
            android:layout_width="116dp"
            android:layout_height="54dp"
-           android:text="Decress"
+           android:text="@string/decress"
+           app:cornerRadius="50dp"
            tools:layout_editor_absoluteX="152dp"
            tools:layout_editor_absoluteY="114dp" />
 
    </LinearLayout>
-
 
 
     <Button
@@ -71,6 +73,7 @@
         android:layout_width="135dp"
         android:layout_height="56dp"
         android:text="Reset"
+        app:cornerRadius="50dp"
         tools:layout_editor_absoluteX="282dp"
         tools:layout_editor_absoluteY="114dp" />
 
